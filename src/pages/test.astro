@@ -1,0 +1,14 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import HeroSection from '../components/HeroSection';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title="Test" description="React + Tailwind test page" />
+	</head>
+	<body class="bg-[#111111] m-0 p-0">
+		<HeroSection client:load />
+	</body>
+</html>
