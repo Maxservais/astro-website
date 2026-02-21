@@ -1,5 +1,6 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
 import HeroSection from '../components/HeroSection';
 ---
 
@@ -9,6 +10,7 @@ import HeroSection from '../components/HeroSection';
 		<BaseHead title="Test" description="React + Tailwind test page" />
 	</head>
 	<body class="bg-[#f9fafb] m-0 p-0">
+		<Header />
 		<HeroSection client:load />
 	</body>
 </html>
