@@ -200,3 +200,6 @@ dist
 
 ### Astro ###
 .astro/
+
+### Project docs (local only) ###
+RELAY_LANDING_PAGE.md
