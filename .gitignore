@@ -203,3 +203,9 @@ dist
 
 ### Project docs (local only) ###
 RELAY_LANDING_PAGE.md
+
+### Claude Code ###
+.claude/
+
+### Temporary reference app ###
+.b_NCiCBwcNZPd-1771943345913/
