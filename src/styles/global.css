@@ -77,6 +77,11 @@
   --color-relay-dark: var(--relay-dark);
 }
 
+@keyframes progress-fill {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
