@@ -375,10 +375,10 @@ export function Patterns() {
       onMouseLeave={() => { isPaused.current = false; }}
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-5">
+        <p className="text-[11px] font-semibold uppercase tracking-[0.1em] text-muted-foreground mb-5">
           What We Automate
         </p>
-        <h2 className="text-3xl md:text-[2.75rem] font-bold leading-[1.1] tracking-tight text-foreground max-w-2xl mb-10">
+        <h2 className="text-3xl md:text-[3rem] font-semibold leading-[1.1] tracking-tight text-foreground max-w-2xl mb-10">
           Five patterns we see in{" "}
           <span className="text-relay-orange">every business</span> we talk to.
         </h2>
